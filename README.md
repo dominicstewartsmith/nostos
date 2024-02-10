@@ -1,6 +1,6 @@
 # NOSTOS - The Concept
 
-Nostos is a community based app focussed around visiting locations in the real world and then writing about your perceptions of the places you go to. The app is framed around a sci-fi theme, with the user taking on the role of an alien researcher visiting Earth.
+Nostos is a community based app focussed around visiting locations in the real world and then writing about your perceptions of the places you go to. The app is framed in a sci-fi theme, with the user taking on the role of an alien researcher visiting Earth.
 
 On opening the map the user is presented with several points of interest to visit. After selecting one they will not be able to proceed until physically within a 100m radius of the point (using native GPS tracking). Once at said location, the user is able to write an entry log for this place, being prompted to look around and engage, writing some meaningful content.
 
@@ -11,6 +11,7 @@ Other users are then able to rate and comment on these entries and receive award
 Front-end  
 React Native in Typescript  
 Google Places API for map interactions and place generation  
+Dall-E for some image generation.
 
 Back-end:  
 Jest with Supertest  
@@ -28,6 +29,10 @@ This project was created in two-weeks by the following contributors:
 [Dana Yachini](https://github.com/DanaYachini),  
 [Andrew MacShane](https://github.com/amacsha),  
 and myself, [Dominic Stewart-Smith](https://github.com/dominicstewartsmith).  
+
+# Demo Video
+
+[Visit YouTube](https://youtu.be/tUzWbjgdQwU)
 
 # Screenshots
 ![alt](/screenshots/ship-view.png)
