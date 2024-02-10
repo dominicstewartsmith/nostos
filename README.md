@@ -44,8 +44,15 @@ and myself, [Dominic Stewart-Smith](https://github.com/dominicstewartsmith).
 
 # Instructions for running
 
-in /server you will need an .env file containing the URI to a Postgres database, and a Google Place API secret key.
-in /client you will need an .env file 
+In ./server:
+Create a .env file, following the example of .env.example.
+You will need a Postgres database URI, and a secret key of your choice for encrypting user data.
+Run the commands `npm i`, and once that is finished `npm run initDB` to populate your database with some location data.
+
+In ./client you will also need an .env file containing your local IP address.
+Then run `npm i`
+
+Finally from ./server you can run `npm run dev` to create the server, and simultaneously from ./client run `npm run start` to build the app and open it on Expo.
 
 
 
